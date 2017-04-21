@@ -1,12 +1,9 @@
 package ru.rsfera.a1l7;
 
-import android.content.Intent;
 import android.os.Bundle;
-import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
-import android.view.View;
 
-public class MainActivity extends AppCompatActivity implements WorkoutListFragment.WorkoutListener {
+public class MainActivity extends AppCompatActivity{ // implements WorkoutListFragment.WorkoutListener {
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -15,7 +12,7 @@ public class MainActivity extends AppCompatActivity implements WorkoutListFragme
 		//onItemClicked(0);
 	}
 
-	@Override
+/*	@Override
 	public void onItemClicked(int id) {
 		View fragmentContainer = findViewById(R.id.detailsFragment);
 		if (fragmentContainer != null) {
@@ -30,5 +27,5 @@ public class MainActivity extends AppCompatActivity implements WorkoutListFragme
 			startActivity(intent);
 		}
 	}
-
+*/
 }

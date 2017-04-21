@@ -9,12 +9,12 @@
 
 	tools:context="ru.rsfera.a1l7.MainActivity">
 
-	<fragment
+<!--	<fragment
 		android:id="@+id/listFragment"
 		class="ru.rsfera.a1l7.WorkoutListFragment"
 		android:layout_width="0dp"
 		android:layout_height="wrap_content"
 		android:layout_weight="2"/>
-
+-->
 
 </LinearLayout>
